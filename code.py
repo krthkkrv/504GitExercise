@@ -1,3 +1,4 @@
+# counting the occurances of A, T, G and C base paires or amino acids in a given nucleotide/ protein sequence
 def function1(a):
     b = dict()
     for c in a:
@@ -7,6 +8,7 @@ def function1(a):
             b[c] += 1
     return b
 
+#  
 def function2(a):
     print('freqs')
     total = float(sum([a[b] for b in a.keys()]))
